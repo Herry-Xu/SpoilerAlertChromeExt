@@ -1,10 +1,20 @@
 {
   "name": "SpoilerAlert Extensions",
   "description" : "Base Level Extension",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["storage"],
   "version": "0.1",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "browser_action": {
     "default_popup": "spoiler.html",
-    "default_icon": "emoji.png"
+    "default_icon": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+    }
   }
 }
