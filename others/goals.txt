@@ -1,0 +1,6 @@
+Milestones for this app:
+
+- User should be able to add topics using text
+- Alert will show up if topic is on page
+- API to add latest news and topics
+- Implement adding by image
